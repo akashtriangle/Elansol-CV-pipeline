@@ -6,7 +6,7 @@ from queue import Queue
 from input_and_preprocessing import starter_function, read_frames, part1, part2
 from ws_client_server_insertDb import web_socket_server, web_socket_client, create_sqlite_db
 
-video_path = r"C:\Users\DELL\Desktop\Elansol\elansol cv.mp4"
+video_path = r"C:\Users\DELL\Desktop\Elansol\elansol cv.mp4" # I HAVE GIVEN LINK FOR THIS VIDEO IN README, AS VIDEO COULD NOT BE UPLOADED ON GIT DUE TO PROBLEM
 
 async def main_loop():
 
@@ -73,4 +73,5 @@ async def start_system():
 
 
 if __name__ == "__main__":
+
     asyncio.run(start_system()) 
